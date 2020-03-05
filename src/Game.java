@@ -76,6 +76,7 @@ public class Game {
         return a.substring(a.length() - 2);
     }
 
+    //refactorizeaza metoda. Sa fie clar ce ai facut aici. sparge-o in mai multe metode
     public void play(int n,int rnd) {
         this.round =rnd;
         //System.out.println("runda: "+this.round);
